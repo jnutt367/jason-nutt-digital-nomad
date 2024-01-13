@@ -8,7 +8,7 @@ export default function Home() {
           className="bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
-          height={300}
+          height={700}
           width={300}
           priority
         />
