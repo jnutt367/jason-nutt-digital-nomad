@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen bg-red flex-col items-center justify-between p-24">
       
       <Image
-          className="bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
+          className="bg-transparent h-24 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
           height={700}
