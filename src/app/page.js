@@ -10,16 +10,16 @@ export default function Home() {
         <li className="w-1/5 bg-transparent"> 
           Home
         </li>
-        <li className="w-1/5 bg-transparent">
+        <li className="w-1/5 pl-8 bg-transparent">
          Services
         </li>
-        <li className="w-1/5 bg-transparent">
+        <li className="w-1/5 pl-8  bg-transparent">
           Github
         </li>
 
 
         <Image
-          className="w-1/5 bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
+          className="w-1/5  pl-8 bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
           width={500}
@@ -30,7 +30,7 @@ export default function Home() {
 
    
     
-<button className="w-1/5 bg-purple-400 h-12">
+<button className="w-1/5 pl-8 bg-purple-400 h-12">
     Get in Touch
 </button>
 
