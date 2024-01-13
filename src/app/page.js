@@ -19,10 +19,10 @@ export default function Home() {
 
 
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
+          className="w-1/4 bg-gray-400 h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
-          width={500}
+          width={350}
           height={150}
           priority
         />
