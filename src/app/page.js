@@ -22,8 +22,8 @@ export default function Home() {
           className="w-1/5  pl-8 bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
-          width={500}
-          height={300}
+          height={900}
+          width={1200}
           priority
         />
 
