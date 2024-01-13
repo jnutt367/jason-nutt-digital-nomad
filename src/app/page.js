@@ -42,7 +42,7 @@ export default function Home() {
           className="w-full bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/public/2F09AA69-81E8-4C7C-848B-42F31BA65E96_1_105_c.jpeg"
           alt="Next.js Logo"
-          width={1200}
+          width={700}
           height={500}
           priority
         />
