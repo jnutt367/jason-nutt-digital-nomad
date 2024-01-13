@@ -4,22 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen bg-red flex-col items-center justify-between p-24">
       
-  <ul className="w-full bg-transparent relative flex  space-between place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-     
-      
-        <li className="w-1/5 bg-transparent"> 
-          Home
-        </li>
-        <li className="w-1/5 pl-8 bg-transparent">
-         Services
-        </li>
-        <li className="w-1/5 pl-8  bg-transparent">
-          Github
-        </li>
-
-
-        <Image
-          className="w-1/5  pl-8 bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
+      <Image
+          className="bg-transparent h-12 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
           src="/jn-high-resolution-logo-transparent.png"
           alt="Next.js Logo"
           height={900}
@@ -28,9 +14,24 @@ export default function Home() {
         />
 
 
+  <ul className="w-full bg-transparent relative flex  space-between place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+     
+      
+        <li className="w-1/4 bg-transparent"> 
+          Home
+        </li>
+        <li className="w-1/4 pl-8 bg-transparent">
+         Services
+        </li>
+        <li className="w-1/4 pl-8  bg-transparent">
+          Github
+        </li>
+
+
+
    
     
-<button className="w-1/5 pl-8 bg-purple-400 h-12">
+<button className="w-1/4 pl-8 bg-purple-400 h-12">
     Get in Touch
 </button>
 
