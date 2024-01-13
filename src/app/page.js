@@ -39,7 +39,7 @@ export default function Home() {
       </ul>
 
       <Image
-          className="w-full bg-transparent h-24 grey:invert"
+          className="w-full bg-transparent h-48 grey:invert"
           src="/2F09AA69-81E8-4C7C-848B-42F31BA65E96_1_105_c.jpeg"
           alt="Next.js Logo"
           width={700}
