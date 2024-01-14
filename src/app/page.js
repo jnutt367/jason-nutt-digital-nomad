@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-red flex-col items-center justify-between p-24 pt-2">
+    <main /* className="flex min-h-screen bg-red flex-col items-center justify-between p-24 pt-2" */>
       
       <Image
           className="bg-transparent h-24 dark:drop-shadow-[0_0_0.3rem_gold] grey:invert"
